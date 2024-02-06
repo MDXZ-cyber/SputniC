@@ -1,0 +1,356 @@
+pl/touk/sputnik/review/filter/PythonFilter.java
+ pl.touk.sputnik.review.filter.PythonFilter
+pl/touk/sputnik/connector/ConnectorType.java
+ pl.touk.sputnik.connector.ConnectorType
+pl/touk/sputnik/connector/PatchsetBuilder.java
+ pl.touk.sputnik.connector.PatchsetBuilder
+pl/touk/sputnik/processor/eslint/ESLintExecutor.java
+ pl.touk.sputnik.processor.eslint.ESLintExecutor
+pl/touk/sputnik/review/locator/BuildDirLocatorFactory.java
+ pl.touk.sputnik.review.locator.BuildDirLocatorFactory
+ pl.touk.sputnik.review.locator.BuildDirLocatorFactory$1
+pl/touk/sputnik/review/filter/TypeScriptFilter.java
+ pl.touk.sputnik.review.filter.TypeScriptFilter
+pl/touk/sputnik/processor/jshint/JsHintReviewProcessorFactory.java
+ pl.touk.sputnik.processor.jshint.JsHintReviewProcessorFactory
+pl/touk/sputnik/processor/codenarc/CodeNarcProcessor.java
+ pl.touk.sputnik.processor.codenarc.CodeNarcProcessor
+pl/touk/sputnik/connector/stash/StashConnector.java
+ pl.touk.sputnik.connector.stash.StashConnector
+pl/touk/sputnik/connector/gerrit/GerritOptions.java
+ pl.touk.sputnik.connector.gerrit.GerritOptions
+pl/touk/sputnik/review/filter/PmdFilter.java
+ pl.touk.sputnik.review.filter.PmdFilter
+pl/touk/sputnik/processor/detekt/ResultBuilder.java
+ pl.touk.sputnik.processor.detekt.ResultBuilder
+ pl.touk.sputnik.processor.detekt.ResultBuilder$1
+pl/touk/sputnik/review/ReviewException.java
+ pl.touk.sputnik.review.ReviewException
+pl/touk/sputnik/exec/ExternalProcessException.java
+ pl.touk.sputnik.exec.ExternalProcessException
+pl/touk/sputnik/processor/ktlint/KtlintProcessor.java
+ pl.touk.sputnik.processor.ktlint.KtlintProcessor
+pl/touk/sputnik/processor/shellcheck/ShellcheckResultParser.java
+ pl.touk.sputnik.processor.shellcheck.ShellcheckResultParser
+ pl.touk.sputnik.processor.shellcheck.ShellcheckResultParser$1
+pl/touk/sputnik/connector/gerrit/GerritPatchset.java
+ pl.touk.sputnik.connector.gerrit.GerritPatchset
+pl/touk/sputnik/engine/visitor/LimitCommentVisitor.java
+ pl.touk.sputnik.engine.visitor.LimitCommentVisitor
+pl/touk/sputnik/connector/stash/json/Anchor.java
+ pl.touk.sputnik.connector.stash.json.Anchor
+ pl.touk.sputnik.connector.stash.json.Anchor$AnchorBuilder
+pl/touk/sputnik/review/filter/FileExtensionFilter.java
+ pl.touk.sputnik.review.filter.FileExtensionFilter
+pl/touk/sputnik/connector/stash/SingleFileChanges.java
+ pl.touk.sputnik.connector.stash.SingleFileChanges
+ pl.touk.sputnik.connector.stash.SingleFileChanges$ChangeDetails
+ pl.touk.sputnik.connector.stash.SingleFileChanges$SingleFileChangesBuilder
+pl/touk/sputnik/review/transformer/FileNameTransformer.java
+ pl.touk.sputnik.review.transformer.FileNameTransformer
+ pl.touk.sputnik.review.transformer.FileNameTransformer$1
+pl/touk/sputnik/processor/spotbugs/SpotBugsProcessor.java
+ pl.touk.sputnik.processor.spotbugs.SpotBugsProcessor
+pl/touk/sputnik/connector/local/LocalFacadeBuilder.java
+ pl.touk.sputnik.connector.local.LocalFacadeBuilder
+pl/touk/sputnik/connector/http/HttpHelper.java
+ pl.touk.sputnik.connector.http.HttpHelper
+ pl.touk.sputnik.connector.http.HttpHelper$1
+pl/touk/sputnik/connector/saas/json/FileViolation.java
+ pl.touk.sputnik.connector.saas.json.FileViolation
+pl/touk/sputnik/engine/diff/FileDiff.java
+ pl.touk.sputnik.engine.diff.FileDiff
+pl/touk/sputnik/engine/visitor/RegexFilterFilesVisitor.java
+ pl.touk.sputnik.engine.visitor.RegexFilterFilesVisitor
+ pl.touk.sputnik.engine.visitor.RegexFilterFilesVisitor$1
+pl/touk/sputnik/processor/eslint/json/FileViolations.java
+ pl.touk.sputnik.processor.eslint.json.FileViolations
+pl/touk/sputnik/connector/saas/json/Violation.java
+ pl.touk.sputnik.connector.saas.json.Violation
+pl/touk/sputnik/review/Comment.java
+ pl.touk.sputnik.review.Comment
+pl/touk/sputnik/review/locator/BuildDirLocator.java
+ pl.touk.sputnik.review.locator.BuildDirLocator
+pl/touk/sputnik/configuration/GeneralOption.java
+ pl.touk.sputnik.configuration.GeneralOption
+pl/touk/sputnik/connector/http/HttpException.java
+ pl.touk.sputnik.connector.http.HttpException
+pl/touk/sputnik/processor/codenarc/ResultParser.java
+ pl.touk.sputnik.processor.codenarc.ResultParser
+pl/touk/sputnik/review/ReviewResult.java
+ pl.touk.sputnik.review.ReviewResult
+pl/touk/sputnik/processor/pylint/PylintProcessorFactory.java
+ pl.touk.sputnik.processor.pylint.PylintProcessorFactory
+pl/touk/sputnik/engine/visitor/score/NoScore.java
+ pl.touk.sputnik.engine.visitor.score.NoScore
+pl/touk/sputnik/review/transformer/FileTransformer.java
+ pl.touk.sputnik.review.transformer.FileTransformer
+pl/touk/sputnik/processor/eslint/json/Message.java
+ pl.touk.sputnik.processor.eslint.json.Message
+pl/touk/sputnik/processor/detekt/DetektProcessorFactory.java
+ pl.touk.sputnik.processor.detekt.DetektProcessorFactory
+pl/touk/sputnik/connector/stash/json/FileComment.java
+ pl.touk.sputnik.connector.stash.json.FileComment
+pl/touk/sputnik/review/filter/ScalaFilter.java
+ pl.touk.sputnik.review.filter.ScalaFilter
+pl/touk/sputnik/connector/github/ReviewStatus.java
+ pl.touk.sputnik.connector.github.ReviewStatus
+pl/touk/sputnik/review/filter/ESLintFilter.java
+ pl.touk.sputnik.review.filter.ESLintFilter
+pl/touk/sputnik/engine/visitor/FilterOutTestFilesVisitor.java
+ pl.touk.sputnik.engine.visitor.FilterOutTestFilesVisitor
+ pl.touk.sputnik.engine.visitor.FilterOutTestFilesVisitor$1
+pl/touk/sputnik/review/transformer/ClassNameTransformer.java
+ pl.touk.sputnik.review.transformer.ClassNameTransformer
+ pl.touk.sputnik.review.transformer.ClassNameTransformer$1
+pl/touk/sputnik/connector/stash/StashFacade.java
+ pl.touk.sputnik.connector.stash.StashFacade
+pl/touk/sputnik/connector/stash/json/DiffSegment.java
+ pl.touk.sputnik.connector.stash.json.DiffSegment
+pl/touk/sputnik/connector/gerrit/GerritException.java
+ pl.touk.sputnik.connector.gerrit.GerritException
+pl/touk/sputnik/connector/saas/SaasException.java
+ pl.touk.sputnik.connector.saas.SaasException
+pl/touk/sputnik/processor/checkstyle/CheckstyleProcessor.java
+ pl.touk.sputnik.processor.checkstyle.CheckstyleProcessor
+pl/touk/sputnik/connector/ConnectorFacade.java
+ pl.touk.sputnik.connector.ConnectorFacade
+pl/touk/sputnik/processor/scalastyle/ScalastyleProcessor.java
+ pl.touk.sputnik.processor.scalastyle.ScalastyleProcessor
+pl/touk/sputnik/processor/ktlint/LintErrorConverter.java
+ pl.touk.sputnik.processor.ktlint.LintErrorConverter
+pl/touk/sputnik/processor/tslint/TSLintException.java
+ pl.touk.sputnik.processor.tslint.TSLintException
+pl/touk/sputnik/connector/github/GithubFacadeBuilder.java
+ pl.touk.sputnik.connector.github.GithubFacadeBuilder
+pl/touk/sputnik/processor/tslint/TSLintScript.java
+ pl.touk.sputnik.processor.tslint.TSLintScript
+pl/touk/sputnik/connector/github/Notification.java
+ pl.touk.sputnik.connector.github.Notification
+pl/touk/sputnik/configuration/Configuration.java
+ pl.touk.sputnik.configuration.Configuration
+pl/touk/sputnik/processor/checkstyle/CollectorListener.java
+ pl.touk.sputnik.processor.checkstyle.CollectorListener
+ pl.touk.sputnik.processor.checkstyle.CollectorListener$1
+pl/touk/sputnik/engine/VisitorBuilder.java
+ pl.touk.sputnik.engine.VisitorBuilder
+pl/touk/sputnik/processor/checkstyle/CheckstyleReviewProcessorFactory.java
+ pl.touk.sputnik.processor.checkstyle.CheckstyleReviewProcessorFactory
+pl/touk/sputnik/review/transformer/IOFileTransformer.java
+ pl.touk.sputnik.review.transformer.IOFileTransformer
+ pl.touk.sputnik.review.transformer.IOFileTransformer$1
+pl/touk/sputnik/connector/github/Status.java
+ pl.touk.sputnik.connector.github.Status
+pl/touk/sputnik/connector/stash/json/ReviewElement.java
+ pl.touk.sputnik.connector.stash.json.ReviewElement
+pl/touk/sputnik/exec/ExternalProcess.java
+ pl.touk.sputnik.exec.ExternalProcess
+pl/touk/sputnik/configuration/ConfigurationBuilder.java
+ pl.touk.sputnik.configuration.ConfigurationBuilder
+pl/touk/sputnik/engine/visitor/score/ScorePassIfNoErrors.java
+ pl.touk.sputnik.engine.visitor.score.ScorePassIfNoErrors
+pl/touk/sputnik/review/locator/AbstractBuildDirLocator.java
+ pl.touk.sputnik.review.locator.AbstractBuildDirLocator
+ pl.touk.sputnik.review.locator.AbstractBuildDirLocator$1
+pl/touk/sputnik/review/ReviewFormatter.java
+ pl.touk.sputnik.review.ReviewFormatter
+pl/touk/sputnik/engine/visitor/comment/CommentIncludeVisitor.java
+ pl.touk.sputnik.engine.visitor.comment.CommentIncludeVisitor
+pl/touk/sputnik/processor/shellcheck/ShellcheckExecutor.java
+ pl.touk.sputnik.processor.shellcheck.ShellcheckExecutor
+pl/touk/sputnik/connector/gerrit/GerritFacadeBuilder.java
+ pl.touk.sputnik.connector.gerrit.GerritFacadeBuilder
+ pl.touk.sputnik.connector.gerrit.GerritFacadeBuilder$1
+pl/touk/sputnik/processor/ktlint/KtLintProcessorFactory.java
+ pl.touk.sputnik.processor.ktlint.KtLintProcessorFactory
+pl/touk/sputnik/processor/codenarc/CodeNarcReviewProcessorFactory.java
+ pl.touk.sputnik.processor.codenarc.CodeNarcReviewProcessorFactory
+pl/touk/sputnik/processor/tslint/TSLintProcessorFactory.java
+ pl.touk.sputnik.processor.tslint.TSLintProcessorFactory
+pl/touk/sputnik/review/Paths.java
+ pl.touk.sputnik.review.Paths
+pl/touk/sputnik/configuration/CliOption.java
+ pl.touk.sputnik.configuration.CliOption
+pl/touk/sputnik/connector/stash/json/Comment.java
+ pl.touk.sputnik.connector.stash.json.Comment
+pl/touk/sputnik/processor/shellcheck/json/ShellcheckMessage.java
+ pl.touk.sputnik.processor.shellcheck.json.ShellcheckMessage
+pl/touk/sputnik/processor/detekt/CommonPath.java
+ pl.touk.sputnik.processor.detekt.CommonPath
+pl/touk/sputnik/connector/stash/StashException.java
+ pl.touk.sputnik.connector.stash.StashException
+pl/touk/sputnik/review/filter/GroovyFilter.java
+ pl.touk.sputnik.review.filter.GroovyFilter
+pl/touk/sputnik/processor/pylint/json/PylintMessage.java
+ pl.touk.sputnik.processor.pylint.json.PylintMessage
+pl/touk/sputnik/Main.java
+ pl.touk.sputnik.Main
+pl/touk/sputnik/engine/visitor/score/ScoreAlwaysPass.java
+ pl.touk.sputnik.engine.visitor.score.ScoreAlwaysPass
+pl/touk/sputnik/processor/tools/externalprocess/ProcessorRunningExternalProcess.java
+ pl.touk.sputnik.processor.tools.externalprocess.ProcessorRunningExternalProcess
+pl/touk/sputnik/connector/http/HttpConnector.java
+ pl.touk.sputnik.connector.http.HttpConnector
+pl/touk/sputnik/connector/stash/json/LineComment.java
+ pl.touk.sputnik.connector.stash.json.LineComment
+pl/touk/sputnik/connector/gerrit/GerritFacade.java
+ pl.touk.sputnik.connector.gerrit.GerritFacade
+pl/touk/sputnik/engine/Engine.java
+ pl.touk.sputnik.engine.Engine
+pl/touk/sputnik/processor/shellcheck/ShellcheckProcessor.java
+ pl.touk.sputnik.processor.shellcheck.ShellcheckProcessor
+pl/touk/sputnik/processor/tslint/json/TSLintFileInfo.java
+ pl.touk.sputnik.processor.tslint.json.TSLintFileInfo
+pl/touk/sputnik/processor/pmd/PmdReviewProcessorFactory.java
+ pl.touk.sputnik.processor.pmd.PmdReviewProcessorFactory
+pl/touk/sputnik/connector/ConnectorDetails.java
+ pl.touk.sputnik.connector.ConnectorDetails
+pl/touk/sputnik/configuration/GeneralOptionNotSupportedException.java
+ pl.touk.sputnik.configuration.GeneralOptionNotSupportedException
+pl/touk/sputnik/processor/tslint/TSLintResultParser.java
+ pl.touk.sputnik.processor.tslint.TSLintResultParser
+pl/touk/sputnik/processor/pmd/PmdProcessor.java
+ pl.touk.sputnik.processor.pmd.PmdProcessor
+pl/touk/sputnik/configuration/CliWrapper.java
+ pl.touk.sputnik.configuration.CliWrapper
+pl/touk/sputnik/review/ReviewProcessor.java
+ pl.touk.sputnik.review.ReviewProcessor
+pl/touk/sputnik/processor/codenarc/CodeNarcRunnerBuilder.java
+ pl.touk.sputnik.processor.codenarc.CodeNarcRunnerBuilder
+pl/touk/sputnik/processor/ReviewProcessorFactory.java
+ pl.touk.sputnik.processor.ReviewProcessorFactory
+pl/touk/sputnik/processor/pylint/PylintProcessor.java
+ pl.touk.sputnik.processor.pylint.PylintProcessor
+pl/touk/sputnik/processor/eslint/ESLintException.java
+ pl.touk.sputnik.processor.eslint.ESLintException
+pl/touk/sputnik/connector/local/LocalFacade.java
+ pl.touk.sputnik.connector.local.LocalFacade
+pl/touk/sputnik/connector/local/LocalFacadeOutput.java
+ pl.touk.sputnik.connector.local.LocalFacadeOutput
+pl/touk/sputnik/processor/shellcheck/ShellcheckProcessorFactory.java
+ pl.touk.sputnik.processor.shellcheck.ShellcheckProcessorFactory
+pl/touk/sputnik/configuration/Provider.java
+ pl.touk.sputnik.configuration.Provider
+pl/touk/sputnik/review/ReviewFile.java
+ pl.touk.sputnik.review.ReviewFile
+pl/touk/sputnik/processor/jslint/JsLintReviewProcessorFactory.java
+ pl.touk.sputnik.processor.jslint.JsLintReviewProcessorFactory
+pl/touk/sputnik/processor/eslint/ESLintProcessorFactory.java
+ pl.touk.sputnik.processor.eslint.ESLintProcessorFactory
+pl/touk/sputnik/processor/pmd/CollectorRenderer.java
+ pl.touk.sputnik.processor.pmd.CollectorRenderer
+ pl.touk.sputnik.processor.pmd.CollectorRenderer$1
+pl/touk/sputnik/review/Violation.java
+ pl.touk.sputnik.review.Violation
+pl/touk/sputnik/review/locator/MavenBuildDirLocator.java
+ pl.touk.sputnik.review.locator.MavenBuildDirLocator
+pl/touk/sputnik/review/filter/JavaFilter.java
+ pl.touk.sputnik.review.filter.JavaFilter
+pl/touk/sputnik/connector/gerrit/ReviewInputBuilder.java
+ pl.touk.sputnik.connector.gerrit.ReviewInputBuilder
+pl/touk/sputnik/processor/pylint/PylintExecutor.java
+ pl.touk.sputnik.processor.pylint.PylintExecutor
+pl/touk/sputnik/processor/pylint/PylintResultParser.java
+ pl.touk.sputnik.processor.pylint.PylintResultParser
+ pl.touk.sputnik.processor.pylint.PylintResultParser$1
+pl/touk/sputnik/processor/detekt/DetektProcessor.java
+ pl.touk.sputnik.processor.detekt.DetektProcessor
+pl/touk/sputnik/processor/jshint/JsHintProcessor.java
+ pl.touk.sputnik.processor.jshint.JsHintProcessor
+pl/touk/sputnik/processor/detekt/LoggingFileProcessor.java
+ pl.touk.sputnik.processor.detekt.LoggingFileProcessor
+pl/touk/sputnik/connector/github/GithubFacade.java
+ pl.touk.sputnik.connector.github.GithubFacade
+pl/touk/sputnik/connector/saas/SaasConnector.java
+ pl.touk.sputnik.connector.saas.SaasConnector
+pl/touk/sputnik/configuration/BuildTool.java
+ pl.touk.sputnik.configuration.BuildTool
+pl/touk/sputnik/processor/scalastyle/ScalastyleReviewProcessorFactory.java
+ pl.touk.sputnik.processor.scalastyle.ScalastyleReviewProcessorFactory
+pl/touk/sputnik/review/filter/JavaScriptFilter.java
+ pl.touk.sputnik.review.filter.JavaScriptFilter
+pl/touk/sputnik/engine/visitor/comment/GerritFileDiffBuilderWrapper.java
+ pl.touk.sputnik.engine.visitor.comment.GerritFileDiffBuilderWrapper
+pl/touk/sputnik/processor/tslint/json/ChangePosition.java
+ pl.touk.sputnik.processor.tslint.json.ChangePosition
+pl/touk/sputnik/processor/spotbugs/SpotBugsReviewProcessorFactory.java
+ pl.touk.sputnik.processor.spotbugs.SpotBugsReviewProcessorFactory
+pl/touk/sputnik/processor/jslint/JsLintProcessor.java
+ pl.touk.sputnik.processor.jslint.JsLintProcessor
+pl/touk/sputnik/engine/visitor/SummaryMessageVisitor.java
+ pl.touk.sputnik.engine.visitor.SummaryMessageVisitor
+pl/touk/sputnik/configuration/ConfigurationOption.java
+ pl.touk.sputnik.configuration.ConfigurationOption
+pl/touk/sputnik/connector/stash/json/LineSegment.java
+ pl.touk.sputnik.connector.stash.json.LineSegment
+pl/touk/sputnik/connector/Connector.java
+ pl.touk.sputnik.connector.Connector
+pl/touk/sputnik/review/Severity.java
+ pl.touk.sputnik.review.Severity
+pl/touk/sputnik/review/locator/GradleBuildFileLocator.java
+ pl.touk.sputnik.review.locator.GradleBuildFileLocator
+pl/touk/sputnik/connector/Patchset.java
+ pl.touk.sputnik.connector.Patchset
+pl/touk/sputnik/review/filter/FileFilter.java
+ pl.touk.sputnik.review.filter.FileFilter
+pl/touk/sputnik/connector/stash/StashPatchset.java
+ pl.touk.sputnik.connector.stash.StashPatchset
+pl/touk/sputnik/processor/tslint/TSLintProcessor.java
+ pl.touk.sputnik.processor.tslint.TSLintProcessor
+pl/touk/sputnik/processor/pylint/PylintException.java
+ pl.touk.sputnik.processor.pylint.PylintException
+pl/touk/sputnik/connector/stash/json/CommentRequest.java
+ pl.touk.sputnik.connector.stash.json.CommentRequest
+pl/touk/sputnik/connector/stash/ChangeType.java
+ pl.touk.sputnik.connector.stash.ChangeType
+pl/touk/sputnik/engine/visitor/comment/GerritFileDiffBuilder.java
+ pl.touk.sputnik.engine.visitor.comment.GerritFileDiffBuilder
+pl/touk/sputnik/review/Review.java
+ pl.touk.sputnik.review.Review
+ pl.touk.sputnik.review.Review$ReviewFileSourceDirFunction
+pl/touk/sputnik/engine/ProcessorBuilder.java
+ pl.touk.sputnik.engine.ProcessorBuilder
+pl/touk/sputnik/connector/ConnectorFacadeFactory.java
+ pl.touk.sputnik.connector.ConnectorFacadeFactory
+ pl.touk.sputnik.connector.ConnectorFacadeFactory$1
+pl/touk/sputnik/engine/visitor/score/ScorePassIfEmpty.java
+ pl.touk.sputnik.engine.visitor.score.ScorePassIfEmpty
+pl/touk/sputnik/review/filter/KotlinFilter.java
+ pl.touk.sputnik.review.filter.KotlinFilter
+pl/touk/sputnik/engine/ReviewRunner.java
+ pl.touk.sputnik.engine.ReviewRunner
+pl/touk/sputnik/connector/stash/StashFacadeBuilder.java
+ pl.touk.sputnik.connector.stash.StashFacadeBuilder
+pl/touk/sputnik/processor/tools/externalprocess/ExternalProcessResultParser.java
+ pl.touk.sputnik.processor.tools.externalprocess.ExternalProcessResultParser
+pl/touk/sputnik/review/filter/ShellFilter.java
+ pl.touk.sputnik.review.filter.ShellFilter
+pl/touk/sputnik/engine/visitor/BeforeReviewVisitor.java
+ pl.touk.sputnik.engine.visitor.BeforeReviewVisitor
+pl/touk/sputnik/connector/ReviewPublisher.java
+ pl.touk.sputnik.connector.ReviewPublisher
+pl/touk/sputnik/engine/visitor/AfterReviewVisitor.java
+ pl.touk.sputnik.engine.visitor.AfterReviewVisitor
+pl/touk/sputnik/engine/visitor/comment/GerritCommentVisitor.java
+ pl.touk.sputnik.engine.visitor.comment.GerritCommentVisitor
+pl/touk/sputnik/processor/spotbugs/CollectorBugReporter.java
+ pl.touk.sputnik.processor.spotbugs.CollectorBugReporter
+pl/touk/sputnik/processor/tslint/json/ListViolationsResponse.java
+ pl.touk.sputnik.processor.tslint.json.ListViolationsResponse
+pl/touk/sputnik/connector/saas/SaasFacade.java
+ pl.touk.sputnik.connector.saas.SaasFacade
+pl/touk/sputnik/connector/Connectors.java
+ pl.touk.sputnik.connector.Connectors
+pl/touk/sputnik/processor/eslint/ESLintProcessor.java
+ pl.touk.sputnik.processor.eslint.ESLintProcessor
+pl/touk/sputnik/connector/github/ContentRenderer.java
+ pl.touk.sputnik.connector.github.ContentRenderer
+pl/touk/sputnik/processor/shellcheck/ShellcheckException.java
+ pl.touk.sputnik.processor.shellcheck.ShellcheckException
+pl/touk/sputnik/connector/saas/SaasFacadeBuilder.java
+ pl.touk.sputnik.connector.saas.SaasFacadeBuilder
+pl/touk/sputnik/processor/eslint/ESLintResultParser.java
+ pl.touk.sputnik.processor.eslint.ESLintResultParser
+ pl.touk.sputnik.processor.eslint.ESLintResultParser$1
+pl/touk/sputnik/review/ReviewFormatterFactory.java
+ pl.touk.sputnik.review.ReviewFormatterFactory
