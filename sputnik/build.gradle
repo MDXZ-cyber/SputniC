@@ -185,6 +185,14 @@ java {
     withSourcesJar()
 }
 
+pipeline {
+    agent any
+    tools {
+        // Use Java 8 for the build
+        jdk 'Java8'
+    }
+}
+
 shadowJar {
     zip64 true
 }
