@@ -15,7 +15,7 @@ import pl.touk.sputnik.connector.ConnectorFacadeFactory;
 import pl.touk.sputnik.connector.ConnectorType;
 import pl.touk.sputnik.engine.Engine;
 
-import review/NewAlgorithm.java;
+import NewAlgorithm.java;
 
 
 public final class Main {
