@@ -15,6 +15,8 @@ import pl.touk.sputnik.connector.ConnectorFacadeFactory;
 import pl.touk.sputnik.connector.ConnectorType;
 import pl.touk.sputnik.engine.Engine;
 
+
+
 public final class Main {
     private static final String SPUTNIK = "sputnik";
     private static final String HEADER = "Sputnik - review your Gerrit patchset with Checkstyle, PMD, SpotBugs and other processors!";
@@ -25,6 +27,17 @@ public final class Main {
     public static void main(String[] args) {
         printWelcomeMessage();
         CliWrapper cliWrapper = new CliWrapper();
+        NewAlgorithm algorithm = new NewAlgorithm();
+
+
+        int sum = algorithm.add(5, 3);
+        int difference = algorithm.subtract(10, 4);
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+
+
+
         CommandLine commandLine = null;
         try {
             commandLine = cliWrapper.parse(args);
@@ -39,6 +52,8 @@ public final class Main {
 
         ConnectorFacade facade = getConnectorFacade(configuration);
         new Engine(facade, facade, configuration).run();
+
+
     }
 
     private static ConnectorFacade getConnectorFacade(Configuration configuration) {
